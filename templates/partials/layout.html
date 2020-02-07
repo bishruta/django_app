@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% load static %}
-<
-
+{% load static %}
 <head>
   <title>Meranda &mdash; Website Template by Colorlib</title>
   <meta charset="utf-8">
@@ -46,10 +44,11 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
+
+
     
     <div class="header-top">
       {% block header %}
-       {% include "partials/header.html" %}
       {% endblock header %}
 
     </div>
@@ -57,34 +56,31 @@
 
     <div class="site-section py-0">
       {% block slide %}
-      
       {% endblock slide %}
     </div>
   
 
     <div class="site-section">
       {% block trending_news %}
-      
       {% endblock trending_news %}
     </div>
     <!-- END section -->
+
+
     <div class="site-section">
-     {% block category_news %}
-    
-     {% endblock category_news %}
+      {% block category_news %}
+      {% endblock category_news %}
     </div>
 
 
 
     <div class="site-section">
       {% block recent_news %}
-      
       {% endblock recent_news %}
     </div>
 
     <div class="site-section subscribe bg-light">
       {% block subscribe %}
-      
       {% endblock subscribe %}
     </div>
 
@@ -92,7 +88,6 @@
     
     <div class="footer">
       {% block footer %}
-      
       {% endblock footer %}
     </div>
     
@@ -105,8 +100,7 @@
   <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff5e15"/></svg></div>
 
   {% block script %}
-  
-  {% endblock script %}}
+  {% endblock script %}
 
 </body>
 

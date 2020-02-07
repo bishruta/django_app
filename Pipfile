@@ -8,6 +8,13 @@ pylint = "*"
 
 [packages]
 django = "==2.2.2"
+black = "*"
+pillow = "*"
+django-crispy-forms = "*"
+python-dotenv = "*"
+djangorestframework = "==3.11.0"
+djangorestframework-simplejwt = "*"
+django-rest-swagger = "==2.1.2"
 
 [requires]
 python_version = "3.7"
